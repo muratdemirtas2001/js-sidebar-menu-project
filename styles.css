@@ -246,8 +246,8 @@ Sidebar
   grid-template-rows: auto 1fr auto;
   row-gap: 1rem;
   box-shadow: var(--clr-red-dark);
-  /* transition: var(--transition); */
-  /* transform: translate(-100%); */
+  transition: var(--transition);
+  transform: translate(-100%);
 }
 .show-sidebar {
   transform: translate(0);
